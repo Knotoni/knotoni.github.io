@@ -10,10 +10,10 @@
     transition: all 0.3s ease;
 }
 
- a:hover, a:focus, a:active {
+a:hover, a:focus, a:active {
       text-decoration: none;
-      color: #ffffff; !important
- }
+      color: #ffffff !important
+}
 
 .main-block {
     display: grid;
