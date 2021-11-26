@@ -1,0 +1,19 @@
+footer {
+    grid-column: 1/4;
+    background: #1f1f1f;
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    height: 150px;
+}
+
+footer .footer-text {
+    grid-column: 2;
+    display: flex;
+}
+
+.footer-text .footer-text-main {
+    margin: auto;
+    color: #aaaaaa;
+    text-align: center;
+    line-height: 1.5;
+}
