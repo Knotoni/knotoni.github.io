@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/typedscript.js"></script>
+    <script src="js/smoothnav.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/null.css">
     <link rel="stylesheet" href="css/header.css">
@@ -18,13 +19,13 @@
     <title>Knotoni Home Page</title>
 </head>
 <body>
-    <a name="about"></a>
+    <a name="about" id="about"></a>
     <div class="header">
         <div class="headling">Owl's Nest</div>
-        <div class="links-block">
+        <div class="links-block" id="links">
             <a href="#about" class="links">About</a>
             <a href="#projects" class="links">Projects</a>
-            <a href="#links" class="links">Links</a>
+            <a href="#link" class="links">Links</a>
         </div>
     </div>
     <div class="about">
@@ -82,7 +83,7 @@
     
     <div class="projects">
         <div class="projects-header">
-            <a name="projects"></a>
+            <a name="projects" id="projects"></a>
             <div class="projects-header-text">My projects</div>
         </div>
         <div class="projects-header-line"></div>
@@ -99,7 +100,6 @@
             </div>
         </div>
         <div class="projects-body">
-            <a name="projects"></a>
             <div class="projects-body-image">
                 <span style="margin: auto; color:#a8a8a8">Image not found :(</span>
             </div>
@@ -113,7 +113,7 @@
     </div>
     <div class="links-page">
         <div class="links-header">
-            <a name="links"></a>
+            <a name="link" id="link"></a>
             <div class="links-header-text">Links</div>
         </div>
         <div class="links-header-line"></div>
